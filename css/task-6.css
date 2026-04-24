@@ -1,0 +1,94 @@
+/* Зовнішня рамка для task-6 */
+.task-6-wrapper {
+  width: 480px;
+  background: #fff;
+  border-radius: 22px;
+  box-shadow: 0 2px 12px rgba(44, 62, 80, 0.08);
+  margin: 48px auto;
+  padding: 32px 24px 40px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+/* Основний контейнер */
+.task-6-wrapper {
+  width: 480px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(44, 62, 80, 0.04);
+  margin: 48px auto;
+  padding: 32px 32px 40px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* Контролі */
+#controls {
+  background: #f7f8fd;
+  border-radius: 12px;
+  padding: 24px 16px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 24px;
+}
+
+#controls input[type="number"] {
+  width: 64px;
+  height: 40px;
+  font-size: 20px;
+  border: 1.5px solid #bdbdbd;
+  border-radius: 8px;
+  text-align: center;
+  outline: none;
+  font-family: inherit;
+  background: #fff;
+}
+
+#controls button[data-create] {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0 24px;
+  height: 40px;
+  font-size: 18px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#controls button[data-create]:hover {
+  background: #1746a2;
+}
+
+#controls button[data-destroy] {
+  background: #ff4d4f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0 24px;
+  height: 40px;
+  font-size: 18px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#controls button[data-destroy]:hover {
+  background: #b91c1c;
+}
+
+/* Блок з квадратами */
+#boxes {
+  background: #f7f8fd;
+  border-radius: 12px;
+  padding: 24px 16px;
+  display: flex;
+  gap: 24px;
+  align-items: flex-end;
+  min-height: 80px;
+  margin-top: 16px;
+}

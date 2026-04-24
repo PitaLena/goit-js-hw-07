@@ -1,0 +1,46 @@
+/* Основний контейнер */
+.task-3-wrapper {
+  width: 540px;
+  background: #fff;
+  border: none;
+  border-radius: 22px;
+  margin: 56px auto;
+  padding: 40px 32px 48px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+/* Підпис */
+.task-3-label {
+  color: #bdbdbd;
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 12px;
+}
+
+/* Інпут */
+#name-input {
+  width: 100%;
+  font-size: 18px;
+  padding: 10px 16px;
+  border: 1.5px solid #bdbdbd;
+  border-radius: 6px;
+  outline: none;
+  font-family: inherit;
+  margin-bottom: 24px;
+  box-sizing: border-box;
+}
+
+#name-input:focus {
+  border-color: #2563eb;
+}
+
+/* Привітання */
+#name-output, h1 {
+  color: #2E2F42;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
