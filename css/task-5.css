@@ -1,0 +1,43 @@
+/* Основний контейнер віджета */
+.widget {
+  width: 360px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(44, 62, 80, 0.04);
+  margin: 48px auto;
+  padding: 40px 32px 48px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.widget p {
+  color: #2E2F42;
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 24px;
+}
+
+.color {
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.change-color {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0 32px;
+  height: 44px;
+  font-size: 20px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 8px;
+}
+
+.change-color:hover {
+  background: #1746a2;
+}
